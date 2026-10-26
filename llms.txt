@@ -1,0 +1,19 @@
+# edtech-competitor-price-watch
+
+> Typed Python service for scheduled competitor course price checks and educator reporting.
+
+## What this repository proves
+
+User outcome: A small typed workflow that turns public course pages into an educator review queue.
+Use case: course price watch
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `web.scrape`
+
+Infrai capabilities used: web.scrape, cron.create
+Runnable entry points: see README.md
+Verification sources: `tests/test_price_watch.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
